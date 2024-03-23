@@ -22,7 +22,7 @@
     <version>0.9.5-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>jose4j-module</name>
-    <url>https://maven.pkg.github.com/jfxmodules/jose4j</url>
+    <url>https://maven.pkg.github.com/jfxmodules/jose4j-module</url>
     <description>
         Version of jose4j that is a Java module.
     </description>
@@ -39,6 +39,14 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
     </properties>
+    
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub jfxmodules Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/jfxmodules/jose4j-module</url>
+        </repository>
+    </distributionManagement>    
 
     <dependencies>
         <dependency>
